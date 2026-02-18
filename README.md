@@ -1,13 +1,40 @@
 # PYTHON-JOURNEY-WITH-DANIEL-FROM-SCRATCH
-My Python learning journey from scratch — covering basics, practice problems, and projects which will be covered in the next 12 weeks of programming.
 
 ## TABLE OF CONTENTS
+- ### 📖 INTRODUCTION.
+- [About This Repository](#about-this-repository)
+- [Who This Course Is For](#who-this-course-is-for)
+- [How to Use This Repository](#how-to-use-this-repository)
+- ### SET-UP AND INSTALLATION.
 - [INSTALLATION OF VSCODE AND PYCHARM](#installation-of-vscode-and-pycharm)
 - [PYTHON LESSONS](#python-lessons)
 - [EXERCISE 1](#exercise-1)
 - [VARIABLES](#variables)
 - [DATATYPES](#datatypes)
 - [INPUT AND OUTPUT](#input-and-output)
+
+## 📖 INTRODUCTION.
+## About This Repository
+My Python learning journey from scratch — covering basics, practice problems, and projects which will be covered in the next 12 weeks of programming.
+
+## Who This Course Is For
+This course is for:
+- Complete beginners with no programming experience
+- Students who want to strengthen their Python basics
+- Anyone preparing for coding courses or technical studies
+- Self-learners who prefer structured, practical lessons\
+If you are willing to practice and stay consistent, this course is for you.
+
+## How To Use This Repository
+To get the best results:
+1. Follow the lessons in order.
+2. Read each explanation carefully.
+3. Type the code yourself (don’t just copy and paste).
+4. Complete all exercises and assignments.
+5. Try the mini projects to test your understanding.\
+[!TIP]
+Learning programming requires practice. Write code every day, even if it’s small.
+
 ## INSTALLATION OF VSCODE AND PYCHARM.
 ### VS CODE INSTALLATION
 * **WHAT IS VS CODE?**\
