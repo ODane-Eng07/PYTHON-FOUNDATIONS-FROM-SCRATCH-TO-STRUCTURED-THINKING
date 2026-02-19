@@ -1,50 +1,58 @@
 # PYTHON-JOURNEY-WITH-DANIEL-FROM-SCRATCH
 
-## TABLE OF CONTENTS
-- ### 📖 INTRODUCTION.
-- [About This Repository](#about-this-repository)
-- [Who This Course Is For](#who-this-course-is-for)
-- [How to Use This Repository](#how-to-use-this-repository)
-- ### SET-UP AND INSTALLATION.
-- [INSTALLATION OF VSCODE AND PYCHARM](#installation-of-vscode-and-pycharm)
-- [PYTHON LESSONS](#python-lessons)
+# TABLE OF CONTENTS
+- ## 📖 INTRODUCTION.
+- [ABOUT THIS REPOSITORY.](#about-this-repository)
+- [WHO THIS COURSE IS FOR:](#who-this-course-is-for)
+- [HOW TO USE THIS REPOSITORY.](#how-to-use-this-repository)
+- ## 🛠 SETUP & INSATLLATION
+- [INSTALL VS CODE](#install-vs-code)
+- [INSTALL PYCHARM](#install-pycharm)
+- ## 🚀 PYTHON FUNDAMENTALS
+- ### LESSON 1: Getting Started.
+- [WHAT IS PYTHON?](#what-is-python)
+- [WRITING YOUR FIRST PYTHON PROGRAM.](#writing-your-first-python-program)
+- [UNDERSTANDING print()](#understanding-print)
 - [EXERCISE 1](#exercise-1)
-- [VARIABLES](#variables)
-- [DATATYPES](#datatypes)
+- ### LESSON 2: VARIABLES
+- [WHAT ARE VARIABLES?](#what-are-variables)
+- [VARIABLE NAMING RULES](#variable-naming-rules)
+- [EXERCISE 2](#exercise-2)
+- ### LESSON 3: DATA TYPES
+- [BASIC DATA TYPES](#basic-data-types)
+- [TYPE CONVERSION](#type-conversion)
+- [EXERCISE 3](#exercise-3)
 - [INPUT AND OUTPUT](#input-and-output)
 
 ## 📖 INTRODUCTION.
-## About This Repository
+### ABOUT THIS REPOSITORY.
 My Python learning journey from scratch — covering basics, practice problems, and projects which will be covered in the next 12 weeks of programming.
-
-## Who This Course Is For
+### WHO THIS COURSE IS FOR:
 This course is for:
 - Complete beginners with no programming experience
 - Students who want to strengthen their Python basics
 - Anyone preparing for coding courses or technical studies
 - Self-learners who prefer structured, practical lessons\
 If you are willing to practice and stay consistent, this course is for you.
-
-## How To Use This Repository
+### HOW TO USE THIS REPOSITORY.
 To get the best results:
 1. Follow the lessons in order.
 2. Read each explanation carefully.
 3. Type the code yourself (don’t just copy and paste).
 4. Complete all exercises and assignments.
 5. Try the mini projects to test your understanding.\
-[!TIP]
-Learning programming requires practice. Write code every day, even if it’s small.
+> [!TIP]
+> Learning programming requires practice. Write code every day, even if it’s small.
 
-## INSTALLATION OF VSCODE AND PYCHARM.
-### VS CODE INSTALLATION
+## 🛠 SETUP & INSATLLATION
+### INSTALL VS CODE.
 * **WHAT IS VS CODE?**\
 Visual Studio Code (VS Code) is a lightweight and beginner-friendly code editor used for writing and running Python programs.
 * **DOWNLOAD VS CODE**\
 Go to the official VS Code download page:
 [https://visualstudio.microsoft.com/downloads/].\
 Choose the version that matches your operating system: Windows, macOS, Linux.
-
-- **INSATLL VS CODE**\
+- **INSATLLING VS CODE**\
 Open the downloaded installer file.\
 Follow the installation steps shown on your screen.\
 For Windows users, it is recommended to:
@@ -61,13 +69,13 @@ Install the extension by Microsoft.
 <img width="250" height="450" alt="image" src="https://github.com/user-attachments/assets/190cf7b8-4bd1-4b8c-b304-4c49b19ed5a2" />
 
 
-### INSTALLING PYCHARM
+## INSTALL PYCHARM
 * WHAT IS PYCHARM?\
 PyCharm is a powerful Python-focused Integrated Development Environment (IDE) that provides tools specifically designed for Python development.
 * DOWNLOAD PYCHARM\
 Go to the official PyCharm download page:
 [https://www.jetbrains.com/pycharm/download/?section=windows]
-* INSTALL PYCHARM\
+* INSTALLING PYCHARM\
 Open the downloaded installer file.\
 Follow the installation instructions.\
 Use the default settings if you are unsure — they work well for beginners.
@@ -77,14 +85,13 @@ Select New Project when prompted.\
 Make sure Python is selected as the interpreter.
 
 
-## PYTHON LESSONS
-### LESSON 1 - INTRO TO PYTHON PROGRAM.
-
-**INTRODUCTION TO PYTHON.**\
+## 🚀 PYTHON FUNDAMENTALS
+## LESSON 1 - GETTING STARTED.
+### WHAT IS PYTHON?
 Python is a high-level programming language known for its simple and easy-to-read syntax. It is designed to be beginner-friendly while still being powerful enough for professional software development.\
 Python is widely used in areas such as web development, data analysis, artificial intelligence, automation, scientific computing, and game development. Because of its clear syntax and large community, Python is one of the best programming languages for beginners to learn.
 
-**CREATING YOUR FIRST PYTHON FILE.**\
+### WRITING YOUR FIRST PYTHON PROGRAM.
 **VS CODE:**\
 Open a new folder.\
 <img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/a47167f5-296d-4c65-bebe-627b5fea6298" />\
@@ -113,7 +120,16 @@ After that you can now start with typing you first python script.\
 <img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/87f76381-837c-4d4d-8de5-5c007022b9a6" />
 Once you're done, run the program and see what it displays.
 
-## EXERCISE 1
+### UNDERSTANDING print()
+The print() function is used to display output in Python. It allows you to show messages, numbers, or results on the screen.\
+This tells Python to display the text inside the quotation marks.\
+You can also print:
+- Numbers → print(10)
+- Variables → print(name)
+- Calculations → print(5 + 3)
+In simple terms, print() is how your program communicates with the user.
+
+### EXERCISE 1
 1. Try changing the "Hello World" inside the print() to anything like:
 - Your name
 - Age
@@ -123,41 +139,43 @@ Once you're done, run the program and see what it displays.
 - Hobby
 - Food
 
-
-## VARIABLES
+## LESSON 2: VARIABLES
+### WHAT ARE VARIABLES?
 Variables store values.\
+### VARIABLE NAMING RULES
+Variable names should be:
+- Descriptive
+- Lowercase
+- Use underscores(is_students)
 age = 25 
 name = "DANIEL"  
 height = 5.6  
 print(age, name, height)\
 <img width="3070" height="392" alt="image" src="https://github.com/user-attachments/assets/bed0896d-54d3-4c71-a9d5-a2faa1282e08" />
-> [!NOTE]
-> Variable names should be:
-> Descriptive
-> Lowercase
-> Use underscores(is_students)
-## EXERCISE 2
-*1. Create variables to store the following:*
-*- Name*
-*- Age*
-*- Food you like*
-*- Hobbies*
-*2. Print it in a neat format using "f-string".*
-*3. Create variables to store numbers in 'a' and 'b'. Use it to the following arithmetic operations.*
-  *- Addition(+)*
-  *- Subtraction(-)*
-  *- Multiplication(*)*
-  *- Division(/)*
-  *- Exponential(**)*
-  *- Modulus(//)*
+### EXERCISE 2
+1. Create variables to store the following:
+- Name
+- Age
+- Food you like
+- Hobbies
+2. Print it in a neat format using "f-string".
+3. Create variables to store numbers in 'a' and 'b'. Use it to the following arithmetic operations.
+  - Addition(+)
+  - Subtraction(-)
+  - Multiplication(*)
+  - Division(/)
+  - Exponential(**)
+  - Modulus(//)
 
-## DATATYPES
+## LESSON 3: DATA TYPES
+### BASIC DATA TYPES
 There are different datatypes in python:
 * int → Whole numbers (e.g., 10)  
 * float → Decimals (e.g., 3.14)  
 * str → Text (e.g., "hello")  
 * bool → True / False      
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/042b6816-f779-4933-b072-3b1a33ed7363" />\
+### TYPE CONVERSION
 The "type()" function shows the datatype of your variable.
 ## EXERCISE 3
 1. Create variables with the following values:
