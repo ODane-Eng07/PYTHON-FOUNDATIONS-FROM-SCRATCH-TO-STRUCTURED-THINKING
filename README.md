@@ -13,16 +13,19 @@
 - [WHAT IS PYTHON?](#what-is-python)
 - [WRITING YOUR FIRST PYTHON PROGRAM.](#writing-your-first-python-program)
 - [UNDERSTANDING print()](#understanding-print)
-- [EXERCISE 1](#exercise-1)
 - ### LESSON 2: VARIABLES
 - [WHAT ARE VARIABLES?](#what-are-variables)
 - [VARIABLE NAMING RULES](#variable-naming-rules)
-- [EXERCISE 2](#exercise-2)
 - ### LESSON 3: DATA TYPES
 - [BASIC DATA TYPES](#basic-data-types)
 - [TYPE CONVERSION](#type-conversion)
-- [EXERCISE 3](#exercise-3)
-- [INPUT AND OUTPUT](#input-and-output)
+- ### LESSON 4: USER INPUT
+- [USING input()](#using-input)
+- [CONVERTING USER INPUT](#converting-user-input)
+- ## 🔢 OPERATORS & EXPRESSIONS
+- [ARITHMETIC OPERATORS](#arithmetic-operators)
+- [COMPARISON OPERATORS](#comparison-operators)
+- [Logical Operators](#logical-operators)
 
 ## 📖 INTRODUCTION.
 ### ABOUT THIS REPOSITORY.
@@ -117,7 +120,7 @@ Create a new python file.\
 It should look like this.\
 <img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/0d359bc8-8a03-4c46-a4f6-6fa8fd24745e" />\
 After that you can now start with typing you first python script.\
-<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/87f76381-837c-4d4d-8de5-5c007022b9a6" />
+<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/87f76381-837c-4d4d-8de5-5c007022b9a6" />\
 Once you're done, run the program and see what it displays.
 
 ### UNDERSTANDING print()
@@ -126,24 +129,11 @@ This tells Python to display the text inside the quotation marks.\
 You can also print:
 - Numbers → print(10)
 - Variables → print(name)
-- Calculations → print(5 + 3)
+- Calculations → print(5 + 3)\
 In simple terms, print() is how your program communicates with the user.
-
-### EXERCISE 1
-1. Try changing the "Hello World" inside the print() to anything like:
-- Your name
-- Age
-- Country
-- Math Formula
-- Arithmetic operation
-- Hobby
-- Food
 
 ## LESSON 2: VARIABLES
 ### WHAT ARE VARIABLES?
-Variables store values.\
-### VARIABLE NAMING RULES
-Variable names should be:
 - Descriptive
 - Lowercase
 - Use underscores(is_students)
@@ -151,21 +141,10 @@ age = 25
 name = "DANIEL"  
 height = 5.6  
 print(age, name, height)\
+Variables store values.
+### VARIABLE NAMING RULES
+Variable names should be:
 <img width="3070" height="392" alt="image" src="https://github.com/user-attachments/assets/bed0896d-54d3-4c71-a9d5-a2faa1282e08" />
-### EXERCISE 2
-1. Create variables to store the following:
-- Name
-- Age
-- Food you like
-- Hobbies
-2. Print it in a neat format using "f-string".
-3. Create variables to store numbers in 'a' and 'b'. Use it to the following arithmetic operations.
-  - Addition(+)
-  - Subtraction(-)
-  - Multiplication(*)
-  - Division(/)
-  - Exponential(**)
-  - Modulus(//)
 
 ## LESSON 3: DATA TYPES
 ### BASIC DATA TYPES
@@ -175,29 +154,58 @@ There are different datatypes in python:
 * str → Text (e.g., "hello")  
 * bool → True / False      
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/042b6816-f779-4933-b072-3b1a33ed7363" />\
-### TYPE CONVERSION
 The "type()" function shows the datatype of your variable.
-## EXERCISE 3
-1. Create variables with the following values:
-   - An integer
-   - A float
-   - A string
-   - A boolean
-2. Print the values and the type:
-> [!NOTE]
-> In order to check the type, use *"print(type())"*.
+### TYPE CONVERSION
+Data type conversion (also called type casting) means changing a value from one data type to another.\
+For example, input from the user is always stored as a string, even if they type a number.\
+Common conversion functions:
+- int() → Converts to integer
+- float() → Converts to float
+- str() → Converts to string
+- bool() → Converts to boolean
+Type conversion is important when working with user input, calculations, and data processing.
+<img width="800" height="250" alt="image" src="https://github.com/user-attachments/assets/a310f78a-1b0a-4d79-b444-435e2e4bfe8a" />
 
-## INPUT AND OUTPUT
+## LESSON 4: USER INPUT
+### USING input()
 Python can also take input from user and give the result as output.
 name = input("Enter your name: ")  
 print("Hello", name) 
-## EXERCISE
-1. Ask user for the following:
-   - name
-   - age
-2. Print the variables accordingly.
-### GUIDELINE
-*name = input("Enter your name: ")*\
-*age = int(input("Enter your age: "))*\
-*print(f"My name is {name}.")*\
-*print(f"I am {age} yr old.")*
+### CONVERTING USER INPUT
+<img width="1000" height="200" alt="image" src="https://github.com/user-attachments/assets/70745c40-7d47-4977-8fd2-4e77a6406e48" />
+
+## 🔢 OPERATORS & EXPRESSIONS
+### ARITHMETIC OPERATORS
+Arithmetic operators are used to perform mathematical calculations.\
+Common arithmetic operators:
+- ' + ' → Addition
+- ' - ' → Subtraction
+- ' * ' → Multiplication
+- ' / ' → Division
+- ' % ' → Modulus (remainder)
+- ' ** ' → Exponent (power)
+- ' // ' → Floor division\
+<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/309da9ae-85f6-4227-8858-0d3603ffcac7" />\
+These operators allow Python to perform calculations using numbers stored in variables.
+### COMPARISON OPERATORS
+Comparison operators are used to compare two values.\
+They return either True or False.\
+Common comparison operators:
+- ' == ' → Equal to
+- ' != ' → Not equal to
+- ' > ' → Greater than
+- ' < ' → Less than
+- ' >= ' → Greater than or equal to
+- ' <= ' → Less than or equal to\
+<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/105ef23c-27e3-4677-95d6-0d53b6bfeb73" />\
+They are commonly used in decision-making (like if statements).
+### LOGICAL OPERATORS
+Logical operators are used to combine multiple conditions.
+Common logical operators:
+- 'and' → Returns True if both conditions are True
+- 'or' → Returns True if at least one condition is True
+- 'not' → Reverses the result (True becomes False, and vice versa)\
+<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/224f6cb6-0f9d-4468-83bd-71a92624ac17" />\
+Logical operators are mainly used in conditional statements.
+
+
