@@ -233,13 +233,13 @@ Runs its code block if all prior if and elif conditions are false. No condition 
 ### LOOPS
 #### FOR LOOPS
 Iterates over a sequence (like a list, range, or string). Executes the indented code block for each item.\
-<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/4ce3dafb-3863-43a6-8768-28cae526f127" />\
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/4ce3dafb-3863-43a6-8768-28cae526f127" />
 #### RANGE() FUNCTION
 Commonly paired with for to generate a sequence of numbers for looping (e.g., for i in range(5) loops 0 to 4).
-<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/3d977479-b50f-4f48-9a1d-df0a7c2ebc5d" />\
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/3d977479-b50f-4f48-9a1d-df0a7c2ebc5d" />
 #### WHILE LOOPS
 Repeatedly executes the indented code block as long as its condition remains true. Tests the condition before each iteration.\
-<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/df31e348-966e-40e7-af35-5d81f15ca530" />\
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/df31e348-966e-40e7-af35-5d81f15ca530" />
 #### LOOP CONTROL(break & continue)
 break exits the loop early; continue skips the rest of the current iteration and checks the condition again.
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/3acae66b-797a-45a4-bb43-b01b9c64ddf6" />\
