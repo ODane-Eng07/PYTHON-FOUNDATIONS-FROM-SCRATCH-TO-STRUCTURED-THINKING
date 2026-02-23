@@ -5,9 +5,11 @@
 - [ABOUT THIS REPOSITORY.](#about-this-repository)
 - [WHO THIS COURSE IS FOR:](#who-this-course-is-for)
 - [HOW TO USE THIS REPOSITORY.](#how-to-use-this-repository)
+
 - ## 🛠 SETUP & INSATLLATION
 - [INSTALL VS CODE](#install-vs-code)
 - [INSTALL PYCHARM](#install-pycharm)
+
 - ## 🚀 PYTHON FUNDAMENTALS
 - ### LESSON 1: Getting Started.
 - [WHAT IS PYTHON?](#what-is-python)
@@ -22,10 +24,20 @@
 - ### LESSON 4: USER INPUT
 - [USING input()](#using-input)
 - [CONVERTING USER INPUT](#converting-user-input)
+
 - ## 🔢 OPERATORS & EXPRESSIONS
 - [ARITHMETIC OPERATORS](#arithmetic-operators)
 - [COMPARISON OPERATORS](#comparison-operators)
-- [Logical Operators](#logical-operators)
+- [LOGICAL OPERATORS](#logical-operators)
+
+- ## 🔁 CONTROLFLOW
+- ### CONDITIONALS
+- [IF, ELIF, ELSE](#if-elif-else)
+- ### LOOPS
+- [FOR LOOPS](#for-loops)
+- [RANGE() FUNCTION](#range()-function)
+- [WHILE LOOPS](#while-loops)
+- [LOOP CONTROL (break & continue)](#loop-control-(break-&-continue))
 
 ## 📖 INTRODUCTION.
 ### ABOUT THIS REPOSITORY.
@@ -207,5 +219,29 @@ Common logical operators:
 - 'not' → Reverses the result (True becomes False, and vice versa)\
 <img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/224f6cb6-0f9d-4468-83bd-71a92624ac17" />\
 Logical operators are mainly used in conditional statements.
+
+## 🔁 CONTROLFLOW
+### CONDITIONALS
+#### IF, ELIF, ELSE
+IF Statement.\
+Checks a condition. If true, executes the indented code block. It's the starting point for conditional logic.\
+ELIF Statement.\
+Short for "else if". Checks another condition only if the previous if or elif was false. Allows multiple conditions.\
+ELSE Statement.\
+Runs its code block if all prior if and elif conditions are false. No condition needed; acts as the default case.\
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/b3fe783b-2451-48a7-a5ec-1f578a775276" />
+### LOOPS
+#### FOR LOOPS
+Iterates over a sequence (like a list, range, or string). Executes the indented code block for each item.\
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/4ce3dafb-3863-43a6-8768-28cae526f127" />\
+#### RANGE() FUNCTION
+Commonly paired with for to generate a sequence of numbers for looping (e.g., for i in range(5) loops 0 to 4).
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/3d977479-b50f-4f48-9a1d-df0a7c2ebc5d" />\
+#### WHILE LOOP
+Repeatedly executes the indented code block as long as its condition remains true. Tests the condition before each iteration.\
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/df31e348-966e-40e7-af35-5d81f15ca530" />\
+#### LOOP CONTROL (break & continue)
+break exits the loop early; continue skips the rest of the current iteration and checks the condition again.
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/3acae66b-797a-45a4-bb43-b01b9c64ddf6" />\
 
 
