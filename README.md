@@ -12,18 +12,18 @@
 
 - ## 🚀 PYTHON FUNDAMENTALS
 - ### LESSON 1: Getting Started.
-- [WHAT IS PYTHON?](#what-is-python)
-- [WRITING YOUR FIRST PYTHON PROGRAM.](#writing-your-first-python-program)
-- [UNDERSTANDING print()](#understanding-print)
+  - [WHAT IS PYTHON?](#what-is-python)
+  - [WRITING YOUR FIRST PYTHON PROGRAM.](#writing-your-first-python-program)
+  - [UNDERSTANDING print()](#understanding-print)
 - ### LESSON 2: VARIABLES
-- [WHAT ARE VARIABLES?](#what-are-variables)
-- [VARIABLE NAMING RULES](#variable-naming-rules)
+  - [WHAT ARE VARIABLES?](#what-are-variables)
+  - [VARIABLE NAMING RULES](#variable-naming-rules)
 - ### LESSON 3: DATA TYPES
-- [BASIC DATA TYPES](#basic-data-types)
-- [TYPE CONVERSION](#type-conversion)
+  - [BASIC DATA TYPES](#basic-data-types)
+  - [TYPE CONVERSION](#type-conversion)
 - ### LESSON 4: USER INPUT
-- [USING input()](#using-input)
-- [CONVERTING USER INPUT](#converting-user-input)
+  - [USING input()](#using-input)
+  - [CONVERTING USER INPUT](#converting-user-input)
 
 - ## 🔢 OPERATORS & EXPRESSIONS
 - [ARITHMETIC OPERATORS](#arithmetic-operators)
@@ -32,12 +32,12 @@
 
 - ## 🔁 CONTROLFLOW
 - ### CONDITIONALS
-- [IF, ELIF, ELSE](#if-elif-else)
+  - [IF, ELIF, ELSE](#if-elif-else)
 - ### LOOPS
-- [FOR LOOPS](#for-loops)
-- [RANGE() FUNCTION](#range()-function)
-- [WHILE LOOPS](#while-loops)
-- [LOOP CONTROL (break & continue)](#loop-control-(break-&-continue))
+  - [FOR LOOPS](#for-loops)
+  - [RANGE() FUNCTION](#range()-function)
+  - [WHILE LOOPS](#while-loops)
+  - [LOOP CONTROL (break & continue) ](#loop-control-(break-&-continue))
 
 ## 📖 INTRODUCTION.
 ### ABOUT THIS REPOSITORY.
@@ -237,10 +237,10 @@ Iterates over a sequence (like a list, range, or string). Executes the indented 
 #### RANGE() FUNCTION
 Commonly paired with for to generate a sequence of numbers for looping (e.g., for i in range(5) loops 0 to 4).
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/3d977479-b50f-4f48-9a1d-df0a7c2ebc5d" />\
-#### WHILE LOOP
+#### WHILE LOOPS
 Repeatedly executes the indented code block as long as its condition remains true. Tests the condition before each iteration.\
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/df31e348-966e-40e7-af35-5d81f15ca530" />\
-#### LOOP CONTROL (break & continue)
+#### LOOP CONTROL(break & continue)
 break exits the loop early; continue skips the rest of the current iteration and checks the condition again.
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/3acae66b-797a-45a4-bb43-b01b9c64ddf6" />\
 
