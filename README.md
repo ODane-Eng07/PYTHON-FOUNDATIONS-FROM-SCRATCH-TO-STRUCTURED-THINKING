@@ -38,6 +38,11 @@
   - [RANGE() FUNCTION](#range()-function)
   - [WHILE LOOPS](#while-loops)
   - [LOOP CONTROL (break & continue) ](#loop-control-(break-&-continue))
+- ### 📦 DATA STRUCTURES
+  - [LISTS](#lists)
+  - [TUPLES](#tuples)
+  - [DICTIONARIES](#dictionaries)
+  - [SETS](#sets)
 
 ## 📖 INTRODUCTION.
 ### ABOUT THIS REPOSITORY.
@@ -244,4 +249,11 @@ Repeatedly executes the indented code block as long as its condition remains tru
 break exits the loop early; continue skips the rest of the current iteration and checks the condition again.
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/3acae66b-797a-45a4-bb43-b01b9c64ddf6" />\
 
-
+### 📦 DATA STRUCTURES
+#### LISTS
+Lists are used to store multiple items in a single variable. They are ordered, changeable (mutable), and allow duplicate values.\
+List is an ordered collection of items and is enclosed in [].
+![alt text](image-1.png)
+**ACCESSING ELEMENTS IN LIST**
+To find out how many elements are in a list, use 'print(len())'. len() shows how much element is in a list
+![alt text](image-2.png)
