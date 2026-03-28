@@ -254,6 +254,12 @@ break exits the loop early; continue skips the rest of the current iteration and
 Lists are used to store multiple items in a single variable. They are ordered, changeable (mutable), and allow duplicate values.\
 List is an ordered collection of items and is enclosed in [].
 ![alt text](image-1.png)
-**ACCESSING ELEMENTS IN LIST**
-To find out how many elements are in a list, use 'print(len())'. len() shows how much element is in a list
-![alt text](image-2.png)
+**ACCESSING ELEMENTS IN LIST**\
+To find out how many elements are in a list, use 'print(len())'.\
+len() shows how much element is in a list\
+![alt text](image-2.png)\
+To pick a specific element, you use 'print(lst[-a number within the range of the list-])'. Also, when finding a specific element, the counting starts from 0.\
+![alt text](image-3.png)\
+**ADDING AND REMOVING ELEMENTS**\
+![alt text](image-4.png)
+
