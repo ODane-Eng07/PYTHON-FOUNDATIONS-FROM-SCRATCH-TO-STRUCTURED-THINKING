@@ -247,20 +247,48 @@ Repeatedly executes the indented code block as long as its condition remains tru
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/df31e348-966e-40e7-af35-5d81f15ca530" />
 #### LOOP CONTROL(break & continue)
 break exits the loop early; continue skips the rest of the current iteration and checks the condition again.
-<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/3acae66b-797a-45a4-bb43-b01b9c64ddf6" />\
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/3acae66b-797a-45a4-bb43-b01b9c64ddf6" />
 
 ### 📦 DATA STRUCTURES
 #### LISTS
 Lists are used to store multiple items in a single variable. They are ordered, changeable (mutable), and allow duplicate values.\
-List is an ordered collection of items and is enclosed in [].
-<img width="587" height="102" alt="image" src="https://github.com/user-attachments/assets/f1a72ef8-e254-48e4-9de5-bb206bfa9009" />
-
+List is an ordered collection of items and is enclosed in [].\
+<img width="400" height="80" alt="image" src="https://github.com/user-attachments/assets/f1a72ef8-e254-48e4-9de5-bb206bfa9009" />\
 **ACCESSING ELEMENTS IN LIST**\
 To find out how many elements are in a list, use 'print(len())'.\
 len() shows how much element is in a list\
-![alt text](image-2.png)\
-To pick a specific element, you use 'print(lst[-a number within the range of the list-])'. Also, when finding a specific element, the counting starts from 0.\
-![alt text](image-3.png)\
+To pick a specific element, you use 'print(lst(-a number within the range of the list-))'. Also, when finding a specific element, the counting starts from 0.\
+<img width="600" height="250" alt="image" src="https://github.com/user-attachments/assets/ddde97be-a303-436d-ba22-0e372773b03f" />\
 **ADDING AND REMOVING ELEMENTS**\
-![alt text](image-4.png)
+<img width="600" height="250" alt="image" src="https://github.com/user-attachments/assets/22ce47e9-c15b-49d4-8937-c129fac5afbc" />\
+**OTHER SPECIAL FUNCTIONS**\
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/b26c6d02-8210-4851-b4aa-2cb600e48aaa" />\
+#### TUPLES
+Tuples are similar to lists but are ordered and unchangeable (immutable). Once created, their values cannot be modified.\
+Tuples are useful when you want to store data that should not change.\
+<img width="300" height="80" alt="image" src="https://github.com/user-attachments/assets/148061a9-3176-4f72-8abd-b6f975ef247a" />\
+**CONVERTING LIST TO TUPLES**\
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/3d54d190-2e3d-4875-a27b-78d7b0724e5f" />\
+**OTHER SPECIAL FUNCTIONS**\
+<img width="750" height="200" alt="image" src="https://github.com/user-attachments/assets/4fc41dfd-9f19-445e-8ce1-35a81bea55b6" />
+#### DICTIONARIES
+Dictionaries store data in key-value pairs. Each key is unique and is used to access its corresponding value.\
+They are useful for storing structured data.\
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/da51c3d3-9b90-4f52-9725-e9b2f35be0fd" />\
+In dictionaries, there are 3 features you should know: Items, Values and Keys.\
+<img width="750" height="200" alt="image" src="https://github.com/user-attachments/assets/c078eb93-38f5-438b-9c66-1ed2db9ff9cf" />\
+**KEYS**\
+<img width="450" height="120" alt="image" src="https://github.com/user-attachments/assets/22f8a54b-adf9-4d51-b957-c29c92cf2243" />\
+**VALUES**\
+<img width="450" height="120" alt="image" src="https://github.com/user-attachments/assets/b29e5255-a486-491e-96fb-bcc404a568c5" />\
+**LOCATION IN DICTIONARIES**\
+<img width="450" height="180" alt="image" src="https://github.com/user-attachments/assets/5e049c75-fb18-4812-81c8-1ae80234849b" />\
+**DELETION IN DICTIONARIES**\
+<img width="450" height="180" alt="image" src="https://github.com/user-attachments/assets/854beca1-99ca-44e6-b0f4-d79c45d74b4e" />\
+**SETS**\
+Sets are used to store unique values. They are unordered and do not allow duplicates.\
+The duplicate value will be removed automatically.\
+<img width="450" height="100" alt="image" src="https://github.com/user-attachments/assets/a16d2083-0260-4a86-aecc-26eb579d6fd6" />\
+**UPDATING AND REMOVING**\
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/57b9bf73-e3e3-4422-b05d-692595f2a75d" />
 
