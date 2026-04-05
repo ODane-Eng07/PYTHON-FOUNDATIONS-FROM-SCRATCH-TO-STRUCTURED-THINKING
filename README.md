@@ -43,6 +43,10 @@
   - [TUPLES](#tuples)
   - [DICTIONARIES](#dictionaries)
   - [SETS](#sets)
+- ### 🧠 Functions
+- [FUNCTIONS](#functions)
+- [PARAMETERS & ARGUMENTS](#parameters--arguments)
+- [RETRUN VALUES](#return-values)
 
 ## 📖 INTRODUCTION.
 ### ABOUT THIS REPOSITORY.
@@ -291,4 +295,21 @@ The duplicate value will be removed automatically.\
 <img width="450" height="100" alt="image" src="https://github.com/user-attachments/assets/a16d2083-0260-4a86-aecc-26eb579d6fd6" />\
 **UPDATING AND REMOVING**\
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/57b9bf73-e3e3-4422-b05d-692595f2a75d" />
+
+## 🧠 Functions
+### FUNCTIONS
+A function is a reusable block of code that performs a specific task. Functions help make programs more organized, easier to read, and easier to reuse.\
+In Python, functions are defined using the def keyword.This function will print a message when it is called.\
+<img width="250" height="250" alt="image" src="https://github.com/user-attachments/assets/d6c40ab7-0ba9-4c35-a75b-64a60f628923" />
+### PARAMETERS & ARGUMENTS
+Parameters are variables listed inside the parentheses when defining a function.\
+Arguments are the actual values you pass into the function when calling it.\
+Here, name is the parameter, and "Daniel" is the argument.\
+<img width="270" height="150" alt="image" src="https://github.com/user-attachments/assets/29d63d9a-3744-4f6b-ad22-cce37ffa7576" />
+### RETRUN VALUES
+A return value is the value that a function sends back after it finishes running.\
+In Python, we use the return keyword to send a value back.\
+<img width="250" height="130" alt="image" src="https://github.com/user-attachments/assets/01c8d385-7b6c-420e-8fd1-2ec4c68f61c7" />
+
+
 
