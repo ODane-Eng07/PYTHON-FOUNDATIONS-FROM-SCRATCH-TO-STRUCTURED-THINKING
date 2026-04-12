@@ -43,10 +43,16 @@
   - [TUPLES](#tuples)
   - [DICTIONARIES](#dictionaries)
   - [SETS](#sets)
-- ### 🧠 Functions
-- [FUNCTIONS](#functions)
-- [PARAMETERS & ARGUMENTS](#parameters--arguments)
-- [RETRUN VALUES](#return-values)
+- ### 🧠 FUNCTIONS
+  - [FUNCTIONS](#functions)
+  - [PARAMETERS & ARGUMENTS](#parameters--arguments)
+  - [RETRUN VALUES](#return-values)
+- ### 📂 MODULES & PACKAGES
+  - [IMPORTING MODULES](#importing-modules)
+  - [Creating Your Own Module](#creating-your-own-module)
+## 📄 FILE HANDLING
+  - [READING FILES](#reading-files)
+  - [WRITING FILES](#writing-files)
 
 ## 📖 INTRODUCTION.
 ### ABOUT THIS REPOSITORY.
@@ -296,7 +302,7 @@ The duplicate value will be removed automatically.\
 **UPDATING AND REMOVING**\
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/57b9bf73-e3e3-4422-b05d-692595f2a75d" />
 
-## 🧠 Functions
+## 🧠 FUNCTIONS
 ### FUNCTIONS
 A function is a reusable block of code that performs a specific task. Functions help make programs more organized, easier to read, and easier to reuse.\
 In Python, functions are defined using the def keyword.This function will print a message when it is called.\
@@ -311,5 +317,27 @@ A return value is the value that a function sends back after it finishes running
 In Python, we use the return keyword to send a value back.\
 <img width="250" height="130" alt="image" src="https://github.com/user-attachments/assets/01c8d385-7b6c-420e-8fd1-2ec4c68f61c7" />
 
+## 📂 MODULES & PACKAGES
+### IMPORTING MODULES
+A module is a file that contains Python code (functions, variables, or classes) that you can reuse in your program.\
+You can use modules by importing them with the import keyword.\
+This allows you to use built-in or external code instead of writing everything from scratch.\
+<img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/1720887a-2d34-4e3f-97ce-be38d0bca4a4" />\
+### CREATING YOUR OWN MODULE
+You can create your own module by saving Python code in a file with a .py extension.\
+Ex: Create a file named my_math.py\
+<img width="300" height="250" alt="image" src="https://github.com/user-attachments/assets/324802dc-f8bf-493e-b81f-69d641cb200c" />\
+Then create another file with the name 'using_my_math.py'.\
+This helps you organize your code and reuse functions across multiple files.\
+<img width="1777" height="453" alt="image" src="https://github.com/user-attachments/assets/3f70fddd-006d-472c-a8b3-118405886b28" />
 
+## 📄 FILE HANDLING
+### READING FILES
+Reading files allows your program to access and use data stored in external files.\
+In Python, you use the open() function with mode "r" (read).\
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/e92aa4da-4cbb-41f3-90f0-6dd105368758" />
+### WRITING FILES
+Writing files allows your program to create or modify files.\
+Use mode "w" (write) to overwrite a file, or "a" (append) to add to it.\
+<img width="500" height="94" alt="image" src="https://github.com/user-attachments/assets/4942d5b0-70b6-4fef-9fb2-a5ba8f384933" />
 
