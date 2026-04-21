@@ -53,6 +53,10 @@
 ## 📄 FILE HANDLING
   - [READING FILES](#reading-files)
   - [WRITING FILES](#writing-files)
+## ⚠️ ERROR HANDLING
+- [COMMON ERRORS](#common-errors)
+- [TRY AND EXCEPT](#try-and-except)
+
 
 ## 📖 INTRODUCTION.
 ### ABOUT THIS REPOSITORY.
@@ -339,5 +343,32 @@ In Python, you use the open() function with mode "r" (read).\
 ### WRITING FILES
 Writing files allows your program to create or modify files.\
 Use mode "w" (write) to overwrite a file, or "a" (append) to add to it.\
-<img width="500" height="94" alt="image" src="https://github.com/user-attachments/assets/4942d5b0-70b6-4fef-9fb2-a5ba8f384933" />
+<img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/4942d5b0-70b6-4fef-9fb2-a5ba8f384933" />
+
+## ⚠️ Error Handling
+### COMMON ERRORS
+Errors are problems in your code that stop the program from running correctly. Understanding common errors helps you fix issues faster.\
+**Some common types:**
+- Syntax Errors → Mistakes in code structure. Example: missing brackets or quotes
+- Name Errors → Using a variable that hasn’t been defined
+- Type Errors → Using incompatible data types. Example: adding a string and a number
+- Value Errors → Passing the wrong type of value. Example: converting text to a number when it’s not numeric
+Learning to read error messages is an important skill in programming.
+### TRY AND EXCEPT
+The try and except blocks are used to handle errors without crashing the program.\
+try → runs the code that might cause an error
+except → runs if an error occurs
+<img width="350" height="130" alt="image" src="https://github.com/user-attachments/assets/43dd4c1d-2d95-409a-8880-a498e2c0d4d9" />\
+You can also handle specific errors:
+Zero Division Error:
+<img width="400" height="150" alt="image" src="https://github.com/user-attachments/assets/6cb3ed7b-1951-4b43-a908-9a909facc73b" />
+Value Error:
+<img width="400" height="150" alt="image" src="https://github.com/user-attachments/assets/84267663-ecc7-4901-bd09-de34d931719d" />
+Multiple Exceptions:
+<img width="400" height="190" alt="image" src="https://github.com/user-attachments/assets/83c2d7aa-06b3-4120-aa41-ea4c37d17cb0" />\
+Error handling helps you:
+- Prevent your program from crashing
+- Handle unexpected inputs
+- Make your programs more user-friendly
+
 
