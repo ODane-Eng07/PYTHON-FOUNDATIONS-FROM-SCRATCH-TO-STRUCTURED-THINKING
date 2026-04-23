@@ -31,23 +31,23 @@
 - [LOGICAL OPERATORS](#logical-operators)
 
 - ## 🔁 CONTROLFLOW
-- ### CONDITIONALS
-  - [IF, ELIF, ELSE](#if-elif-else)
-- ### LOOPS
-  - [FOR LOOPS](#for-loops)
-  - [RANGE() FUNCTION](#range()-function)
-  - [WHILE LOOPS](#while-loops)
-  - [LOOP CONTROL (break & continue) ](#loop-control-(break-&-continue))
-- ### 📦 DATA STRUCTURES
+  - ### CONDITIONALS
+    - [IF, ELIF, ELSE](#if-elif-else)
+  - ### LOOPS
+    - [FOR LOOPS](#for-loops)
+    - [RANGE() FUNCTION](#range()-function)
+    - [WHILE LOOPS](#while-loops)
+    - [LOOP CONTROL (break & continue) ](#loop-control-(break-&-continue))
+- ## 📦 DATA STRUCTURES
   - [LISTS](#lists)
   - [TUPLES](#tuples)
   - [DICTIONARIES](#dictionaries)
   - [SETS](#sets)
-- ### 🧠 FUNCTIONS
+- ## 🧠 FUNCTIONS
   - [FUNCTIONS](#functions)
   - [PARAMETERS & ARGUMENTS](#parameters--arguments)
   - [RETRUN VALUES](#return-values)
-- ### 📂 MODULES & PACKAGES
+- ## 📂 MODULES & PACKAGES
   - [IMPORTING MODULES](#importing-modules)
   - [Creating Your Own Module](#creating-your-own-module)
 - ## 📄 FILE HANDLING
