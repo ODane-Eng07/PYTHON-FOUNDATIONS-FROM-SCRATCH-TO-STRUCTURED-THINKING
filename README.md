@@ -54,8 +54,8 @@
   - [READING FILES](#reading-files)
   - [WRITING FILES](#writing-files)
 - ## ⚠️ ERROR HANDLING
-- [COMMON ERRORS](#common-errors)
-- [TRY AND EXCEPT](#try-and-except)
+  - [COMMON ERRORS](#common-errors)
+  - [TRY AND EXCEPT](#try-and-except)
 
 
 ## 📖 INTRODUCTION.
