@@ -50,10 +50,10 @@
 - ### 📂 MODULES & PACKAGES
   - [IMPORTING MODULES](#importing-modules)
   - [Creating Your Own Module](#creating-your-own-module)
-## 📄 FILE HANDLING
+- ## 📄 FILE HANDLING
   - [READING FILES](#reading-files)
   - [WRITING FILES](#writing-files)
-## ⚠️ ERROR HANDLING
+- ## ⚠️ ERROR HANDLING
 - [COMMON ERRORS](#common-errors)
 - [TRY AND EXCEPT](#try-and-except)
 
